@@ -4,8 +4,10 @@ This challenge was created with Cypress, using as languaje JS and Mocha as asser
 
 ## How is it composed?
 - The suite is divided in two main sections:
+
 -**Page Object:** In this section you will find a different file for each page of the website, that's allows to rehuse code and a clean view.
 We will find the selectors and validations fot this page here. In this case, we only need the home page, so we will se only one file. 
+
 -**TestCases:** Here we can find the test cases for the suite, in this case, we have 5 test cases, each one are referenced to the same page ('HomePage'). At the beginning we have the view ports, this allows us to run in differents views, such as mobile, ipad, or desktop version. 
     
 
